@@ -1,8 +1,9 @@
 FROM fedora:29 AS ldif
 LABEL maintainer="stephen@brokenbottle.net"
 
-RUN yum update -y \
-  && yum install -y ruby rubygem-net-ldap
+RUN dnf update -y \
+  && dnf install -y ruby rubygem-net-ldap \
+  && dnf clean all
 
 COPY generate-ldif.rb /srv
 
