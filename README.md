@@ -17,7 +17,7 @@ A [helpful blog entry](http://karellen.blogspot.com/2011/12/migrating-etcservice
 
 ## Example
 
-There's a public server available at ldap://services.brokenbottle.net, built from the [server](server/) directory. (It's running on GKE, because that's the *-aaS*y way to do it in 2019, right?)
+There's a public server available at ldap://services.brokenbottle.net, built from the [server](server/) directory. (It's running on GKE, because [that's the *-aaS*y way to do it in 2019, right?](https://medium.com/circleci/its-the-future-90d0e5361b44))
 
 There's an example client, too:
 
